@@ -16,3 +16,5 @@ for _ in range(aantal_stappen):
     turtle.left(120)           # draai naar links (driehoekhoek)
     turtle.left(1)             # kleine extra draai
     afstand += 1               # afstand vergroten bij elke stap
+
+turtle.screen.mainloop()  # in plaats van turtle.done(), omdat turtle overschreven is
